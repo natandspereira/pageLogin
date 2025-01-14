@@ -1,8 +1,13 @@
-# React + Vite
+## Descrição
+Este projeto é uma aplicação React que altera a cor de fundo da tela a cada 30 segundos, utilizando classes de estilo do Bootstrap. O componente principal possui um formulário de login simples, que inclui campos para o e-mail e senha, e um botão de "Login". A cor de fundo é alterada aleatoriamente entre sete opções predefinidas a partir de um array de cores.
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+## Funcionalidades
+* Alteração automática de cor de fundo: A cor de fundo da tela muda a cada 30 segundos.
+* Formulário de login: Inclui campos de entrada para o e-mail e senha, além de um botão para realizar o login.
+* Uso de React Hooks: O useState e useEffect são usados para gerenciar o estado da cor de fundo e configurar o intervalo para a troca de cores.
 
-Currently, two official plugins are available:
-
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## Tecnologias utilizadas
+* React
+* Bootstrap 5 (para o design e layout)
+* HTML
+* CSS
